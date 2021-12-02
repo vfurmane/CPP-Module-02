@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 14:48:13 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 09:44:29 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 13:50:06 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ bool	Fixed::operator==(const Fixed &rhs)
 
 bool	Fixed::operator!=(const Fixed &rhs)
 {
-	return this->toFloat() == rhs.toFloat();
+	return this->toFloat() != rhs.toFloat();
 }
 
 Fixed	Fixed::operator+(const Fixed &rhs) const
