@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 14:37:33 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 13:41:03 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:15:23 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ int	main(void)
 			std::cout << "NOT ";
 		std::cout << "in the triangle" << std::endl;
 	}
-	// IN
+	// EDGE
 	{
 		Point	p1(3, 0);
 		Point	p2(5, 4);
