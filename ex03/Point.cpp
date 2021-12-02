@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 10:29:35 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 13:37:50 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:13:14 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,4 @@ const Fixed	&Point::getX(void) const
 const Fixed	&Point::getY(void) const
 {
 	return this->_y;
-}
-
-std::ostream	&operator<<(std::ostream &os, const Point &rhs)
-{
-	os << "(" << rhs.getX() << ", " << rhs.getY() << ")";
-	return os;
 }

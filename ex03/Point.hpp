@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 14:39:16 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 13:35:18 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:13:19 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,5 @@ private:
 	const Fixed	_y;
 
 };
-
-std::ostream	&operator<<(std::ostream &os, const Point &rhs);
 
 #endif

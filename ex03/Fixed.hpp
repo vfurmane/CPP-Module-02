@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 13:46:23 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 13:43:17 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:13:48 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,7 @@ private:
 	static const int	_fractional_bits = 8;
 
 };
+
+std::ostream	&operator<<(std::ostream &os, const Fixed &obj);
 
 #endif

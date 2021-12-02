@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 14:48:13 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/02 13:43:10 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:13:42 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -153,4 +153,10 @@ Fixed	&Fixed::max(Fixed &lhs, Fixed &rhs)
 const Fixed	&Fixed::max(const Fixed &lhs, const Fixed &rhs)
 {
 	return lhs.toFloat() > rhs.toFloat() ? lhs : rhs;
+}
+
+std::ostream	&operator<<(std::ostream &os, const Fixed &obj)
+{
+	os << obj.toFloat();
+	return os;
 }
