@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 14:48:13 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/12/01 12:55:46 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 09:44:29 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ Fixed::Fixed(const float bits)
 
 Fixed::Fixed(const Fixed &obj)
 {
-	this->_value = obj.getRawBits();
+    *this = obj;
 }
 
 Fixed::~Fixed(void)

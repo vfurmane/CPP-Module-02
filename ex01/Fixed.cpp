@@ -6,7 +6,7 @@
 /*   By: vfurmane <vfurmane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 14:48:13 by vfurmane          #+#    #+#             */
-/*   Updated: 2021/11/30 15:17:49 by vfurmane         ###   ########.fr       */
+/*   Updated: 2021/12/02 09:44:15 by vfurmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ Fixed::Fixed(const float bits)
 Fixed::Fixed(const Fixed &obj)
 {
 	std::cout << "Copy constructor called" << std::endl;
-	this->_value = obj.getRawBits();
+	*this = obj;
 }
 
 Fixed::~Fixed(void)
